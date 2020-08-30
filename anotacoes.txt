@@ -1,0 +1,53 @@
+HTML5 e CSS3 parte 1: A primeira página da Web
+
+<h1></h1>                   -> Título 
+<p></p>                      -> Paragrafo
+<em></em>                   -> Itálico
+<strong></strong>           -> Negrito
+<title></title>             -> Título da página
+
+<!DOCTYPE html>             -> Indicar para o navegador de que o arquivo é um arquivo html,
+ e passar qual versão do html estamos utilizando, se não indicar qual, é a última disponível.
+
+<html lang="pt-br"></html>  -> Padrão de projeto indicar página html, e lang pra indicar a linguagem da página
+<head></head>               -> Informações que passa pro navegador
+<body></body>               -> corpo da página, conteúdo    
+<meta charset="UTF-8">      -> Dicionário, tem os caracteres da maioria dos idiomas 
+<p style="font-size: 20px; text-align: center">
+<style></style>
+
+background
+text-align
+color
+em strong -> para todos os strong dentro de em
+
+estilo em cascata do CSS -> Tudo que eu adiciono no elemento pai reflete nos elementos filhos
+
+hexadecimal 0123456789ABCDEF
+
+RGB = Red Green Blue
+
+# _ _ _ _ _ _
+
+0 = ausência
+
+F = Máximo
+
+#000000 -> Preto
+
+#FFFFFF -> Branco
+
+#FF0000 -> Vermelho
+
+Red
+Blue
+Yellow
+
+RGB 0,1,2,3,...255
+
+0 = ausência
+
+255 = Máximo
+
+rgb(255,255,255) -> Branco
+rgb(0,0,255) -> Azul
