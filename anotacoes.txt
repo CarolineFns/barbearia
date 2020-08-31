@@ -1,10 +1,19 @@
 HTML5 e CSS3 parte 1: A primeira página da Web
 
 <h1></h1>                   -> Título 
+<h2></h2>                   -> Título 
+<h3></h3>                   -> Título 
 <p></p>                      -> Paragrafo
 <em></em>                   -> Itálico
 <strong></strong>           -> Negrito
 <title></title>             -> Título da página
+<ul></ul>
+    <li></li>
+<ul></ul>
+<div>                       -> Blocos de conteúdo
+<header></header>
+<a></a>                     -> ancora para navegação para outro ponto da internet
+<nav></nav>                 -> tag de navegação
 
 <!DOCTYPE html>             -> Indicar para o navegador de que o arquivo é um arquivo html,
  e passar qual versão do html estamos utilizando, se não indicar qual, é a última disponível.
@@ -17,9 +26,32 @@ HTML5 e CSS3 parte 1: A primeira página da Web
 <style></style>
 
 background
-text-align
 color
 em strong -> para todos os strong dentro de em
+
+height -> Altura
+width -> Largura
+padding -> espaçamento interno
+margin -> espaçamento externo
+vertical-align: top; -> sobe os elementos
+margin-right: 15%;
+margin: 0 0 0 15px;
+
+font-style: italic
+font-size: 22px;
+font-weight: bold;
+
+# -> id, unicos
+. -> class, repetidos
+
+display: inline-block;
+display: inline;
+
+text-transform: uppercase;
+text-decoration: none;
+text-align;
+
+
 
 estilo em cascata do CSS -> Tudo que eu adiciono no elemento pai reflete nos elementos filhos
 
@@ -51,3 +83,11 @@ RGB 0,1,2,3,...255
 
 rgb(255,255,255) -> Branco
 rgb(0,0,255) -> Azul
+
+CSS inline x CSS externo
+
+UX + Design + desenvolvedor
+
+Comportamento Block -> sempre ocupa a linha mesmo preenchendo só a metade
+Comportamento Inline -> não deixa alterar espaçamento externo ou interno
+Comportamento Inline Block -> bloqueia largura, largura fixa, pode alterar espaçamento
