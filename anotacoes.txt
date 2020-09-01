@@ -91,3 +91,13 @@ UX + Design + desenvolvedor
 Comportamento Block -> sempre ocupa a linha mesmo preenchendo só a metade
 Comportamento Inline -> não deixa alterar espaçamento externo ou interno
 Comportamento Inline Block -> bloqueia largura, largura fixa, pode alterar espaçamento
+
+position static -> default, padrão, parado, não faz nada, ponto inicial na esquerda
+position relative -> O elemento pode ser deslocado com o posicionamento relative, 
+com o seu ponto inicial fixo.
+position absolute -> Para mudar a posição do ponto inicial que ele se encontra,
+eu consigo posicionar meu elemento em qualquer lugar da página, se alinha ao primeiro pai que esteja posicionado,
+sendo assim podemos por exemplo usar position relative no pai, que o elemente vai ficar onde ele ja ta e o elemento
+abslute se alinhara a ele.
+
+usar margin para alinhar conteudo ao centro
