@@ -14,6 +14,7 @@ HTML5 e CSS3 parte 1: A primeira página da Web
 <header></header>
 <a></a>                     -> ancora para navegação para outro ponto da internet
 <nav></nav>                 -> tag de navegação
+<main></main>               -> Conteúdo principal da página
 
 <!DOCTYPE html>             -> Indicar para o navegador de que o arquivo é um arquivo html,
  e passar qual versão do html estamos utilizando, se não indicar qual, é a última disponível.
@@ -31,7 +32,7 @@ em strong -> para todos os strong dentro de em
 
 height -> Altura
 width -> Largura
-padding -> espaçamento interno
+padding -> espaçamento interno -> O elemento aumenta o seu tamanho
 margin -> espaçamento externo
 vertical-align: top; -> sobe os elementos
 margin-right: 15%;
@@ -44,7 +45,7 @@ font-weight: bold;
 # -> id, unicos
 . -> class, repetidos
 
-display: inline-block;
+display: inline-block;  -> tamanha do conteudo mas regulavel, ajustando largura e altura
 display: inline;
 
 text-transform: uppercase;
